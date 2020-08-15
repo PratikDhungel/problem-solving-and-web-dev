@@ -1,0 +1,36 @@
+ #bandName {
+
+	border-color: rgba(123,56,243,0.5);
+	border-width: 2px;
+	border-style: solid;
+
+}
+
+li{
+
+	color: blue;
+}
+
+
+h1 {
+
+	font-family: Georgia;
+	color: blue;
+}
+
+h2 { 
+
+	font-family: "Arial";
+	color: black;
+}
+
+
+#firstSpan {
+
+	font-size: 1.5em;
+}
+
+#secondSpan {
+
+	font-size: 2em;
+}

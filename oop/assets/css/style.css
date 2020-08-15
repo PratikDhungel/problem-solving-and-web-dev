@@ -1,0 +1,13 @@
+.wrapper-div{
+    display: flex;
+    justify-content: center;
+}
+
+.game-box{
+    height: 600px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    /* background-image:  */
+}

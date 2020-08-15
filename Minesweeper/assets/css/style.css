@@ -1,0 +1,65 @@
+.zone-box{
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 400;
+    color: transparent;
+}
+
+.bomb-image {
+    background-image: url(file:///Users/Charon/Documents/Web/Minesweeper/assets/css/bomb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flag-image {
+    background-image: url(file:///Users/Charon/Documents/Web/Minesweeper/assets/css/flag.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row-view{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.clicked-box{
+    pointer-events: none;
+}
+
+.numbered-box{
+    color: black;
+}
+
+.number-one-box{
+    color: #2E7D32
+}
+
+.number-two-box{
+    color: #F9A825
+}
+
+.number-three-box{
+    color: #FF6F00
+}
+
+.higher-number-box{
+    color: #D84315
+}
+
+.safe-box{
+    background-color: grey;
+}
+
+#grid-length{
+    margin-bottom: 30px;
+}

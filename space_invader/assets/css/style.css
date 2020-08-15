@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 10px;
+}
+
+img{
+    /* margin-top: 0px; */
+    float: left;
+}
+
+.slide-window{
+    height: 591px;
+    width: 450px;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+}
+
+.slides{
+    width: 420px;
+    overflow: hidden;
+    position: relative;
+}
+
+.play-button{
+
+    position: absolute;
+    top: 400px;
+    left: 110px;
+}
+
+.player-one{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 10px;
+    background-image: url(file:///Users/Charon/Documents/Web/space_invader/images/goodguy1.png);
+}
+
+.bullets{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.enemy{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-image: url(file:///Users/Charon/Documents/Web/space_invader/images/enemy.png);
+}
+
+.score-keeper{
+    border-radius: 0 4px 4px 0; 
+    position: absolute;
+    z-index: 1;
+    background-color: #d4cfcf;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.score{
+    padding: 4px 8px;
+    font-size: 24px;
+    display: none;
+}
+
+.reset-button{
+
+    display: none;
+    position: absolute;
+    top: 400px;
+    left: 160px;;
+}

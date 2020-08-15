@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>Booklist</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <i class="fas fa-book-open book-color"></i> My<span class="book-color">Book</span>List
+        </div>
+
+        <div class="book-entry">
+            <form class="book-form">
+
+                <div class="form-entry">
+                    <label for="title">Book Title</label>
+                    <input type="text" id="book-title" class="form-input" placeholder="Book Title">
+                </div>
+
+                <div class="form-entry">
+                        <label for="isbn">ISBN Number</label>
+                        <input type="text" id="book-isbn" class="form-input" placeholder="ISBN Number">
+                </div>
+
+                <div class="form-entry">
+                        <label for="author">Author</label>
+                        <input type="text" id="book-author" class="form-input" placeholder="Author">
+                </div>
+                <input type="submit" value="Add Book" class="add-book">
+            </form>
+            <table class="book-table">
+                <thead class="book-color">
+                    <tr>
+                        <td>Title</td>
+                        <td>ISBN Number</td>
+                        <td>Author</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody id="book-list">
+                    
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+#game-box{
+    
+    transition: margin 10s;
+}
+
+.number-boxes{
+    float: left;
+    width: 60px;
+    height: 60px;
+    background-color: aliceblue;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* .myClass {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 2px;
+    border: 2px black solid;
+} */
+
+.row-view{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.number-two{
+    background-color: #C5CAE9
+}
+
+.number-four{
+    background-color: #D4E157
+}
+
+.number-eight{
+    background-color: #FFF176
+}
+
+.number-sixteen{
+    background-color: #FFCA28
+}
+
+.number-thirty-two{
+    background-color: #FFB74D
+}
+
+.number-sixty-four{
+    background-color: #4FC3F7
+}
+
+.number-hundred-twenty-eight{
+    background-color: #f44336
+}
+
+.number-two-hundred-fifty-six{
+    background-color: #CFD8DC
+}
+
+.number-five-hundred-twelve{
+    background-color: #FF9800
+}
+
+.number-thousand-twenty-four{
+    background-color: #AED581
+}
+
+.number-two-thousand-forty-eight{
+    background-color: #DCE775
+}
+
+.higher-numbers{
+    background-color: #546E7A
+}

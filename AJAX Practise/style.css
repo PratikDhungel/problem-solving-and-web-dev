@@ -1,0 +1,28 @@
+#btn{
+
+    margin-bottom: 10px;
+}
+
+/* .user-profile-pic{
+
+    float: left;
+} */
+
+.single-user-details-container{
+
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background-color: lightgrey;
+}
+
+/* .user-details-container{
+
+    display: flex;
+    align-items: center;
+} */
+
+.user-details{
+
+    list-style-type: none;
+}
